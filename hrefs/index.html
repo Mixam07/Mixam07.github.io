@@ -8,29 +8,31 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="hrefs"></div>
-  <div class="form">
-    <div class="form__container">
-      <div class="form__title">Додати силку</div>
-      <div class="form__wrapper">
-        <input data-name type="text" placeholder="Ім'я силки">
-        <span>Name</span>
+  <main class="main">
+    <div class="hrefs"></div>
+    <div class="form">
+      <div class="form__container">
+        <div class="form__title">Додати силку</div>
+        <div class="form__wrapper">
+          <input data-name type="text" placeholder="Ім'я силки">
+          <span>Name</span>
+        </div>
+        <div class="form__wrapper">
+          <input data-descr type="text" placeholder="Опис силки">
+          <span>Description</span>
+        </div>
+        <div class="form__wrapper">
+          <input data-href type="text" placeholder="Силка">
+          <span>Href</span>
+        </div>
+        <button class="form__button">Отправить</button>
       </div>
-      <div class="form__wrapper">
-        <input data-descr type="text" placeholder="Опис силки">
-        <span>Description</span>
+      <div class="form__button_show">
+        <img class="button__show" src="icons/button_up.svg" alt="show">
+        <img class="button__show" src="icons/button__bottom.svg" alt="show">
       </div>
-      <div class="form__wrapper">
-        <input data-href type="text" placeholder="Силка">
-        <span>Href</span>
-      </div>
-      <button class="form__button">Отправить</button>
     </div>
-    <div class="form__button_show">
-      <img class="button__show" src="icons/button_up.svg" alt="show">
-      <img class="button__show" src="icons/button__bottom.svg" alt="show">
-    </div>
-  </div>
+  </main>
   <script src="js/script.js"></script>
 </body>
 </html>
