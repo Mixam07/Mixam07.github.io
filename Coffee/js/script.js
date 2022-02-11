@@ -193,8 +193,11 @@ window.addEventListener("DOMContentLoaded", function() {
         }
       }
     });
-    addEventListener("resize", () => {
-      addClass();
+    window.addEventListener("resize", () => {
+      if(widthScreen !== window.outerWidth){
+        widthScreen = window.outerWidth;
+        addClass();
+      }
     });
   });
 });
