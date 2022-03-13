@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Minesweeper</title>
+</head>
+<body>
+  <main class="main">
+    <div class="main__container container">
+      <div class="main__header">
+        <div class="main__gear"><img src="icons/gear.svg" alt="gear"></div>
+        <button data-newGame class="main__button">New game</button>
+        <div class="main__counter">0</div>
+        <div class="main__wrapper bomb"><img src="icons/bomb.svg" alt="bomb"><img src="icons/flag.svg" alt="flag"></div>
+      </div>
+      <div class="main__body">
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+        <div class="main__item hidden"></div>
+      </div>
+    </div>
+  </main>
+
+  <div class="canvas"></div>
+
+  <div class="window">
+    <div data-windowClose class="close"><img src="icons/сlose.svg" alt="close"></div>
+    <div class="window__container container">
+      <div class="window__title"><span class="lose">lose</span><span class="win">Win</span></div>
+    <div class="window__subtitle"><span class="numberFound">0</span>/<span class="numberAll">0</span></div>
+    </div>
+  </div>
+
+  <div class="setting">
+    <div data-settingClose class="close"><img src="icons/сlose.svg" alt="close"></div>
+    <div class="setting__container container">
+      <div class="setting__block">
+        <div class="setting__title">Difficulty</div>
+        <div class="setting__wrapper">
+          <div class="setting__item">
+            <input type="radio" name="difficulty" value="30" id="30"><label for="30">Easy (30)</label>
+          </div>
+          <div class="setting__item">
+            <input type="radio" name="difficulty" value="45" id="45"><label for="45">Medium (45)</label>
+          </div>
+          <div class="setting__item">
+            <input type="radio" name="difficulty" value="70" id="70"><label for="70">Hard (70)</label>
+          </div>
+          <div class="setting__item">
+            <input type="radio" name="difficulty" value="95" id="95"><label for="95">Very hard (95)</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
