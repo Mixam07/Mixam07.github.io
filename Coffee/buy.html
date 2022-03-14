@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+  <title>Coffee</title>
+</head>
+<body id="body">
+  <header class="header" id="header">
+    <div class="header__container container">
+      <div class="header__navigation">
+        <a href="index.html" class="header__logo">
+          <img src="icons/logo.svg" alt="logo">
+        </a>
+        <nav class="header__nav"></nav>
+        <div class="header__buttons">
+          <div class="header__wrapper">
+            <input class="header__input" type="text">
+            <div data-search class="header__search">
+              <img src="icons/search.svg" alt="search">
+            </div>
+          </div>
+          <div class="header__basket">
+            <img src="icons/basket.svg" alt="basket">
+            <span data-number class="header__number"></span>
+          </div>
+        </div>
+        <div class="header__burgerMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="buy">
+    <div class="buy__container container">
+      <h1 class="title title_main center">Buy coffe</h1>
+      <table class="buy__table">
+        <tr class="buy__column">
+          <th class="buy__row row_main">Name</th>
+          <th class="buy__row row_main description">Description</th>
+          <th class="buy__row row_main price">Price</th>
+          <th class="buy__row row_main">Number</th>
+          <th class="buy__row row_main"></th>
+        </tr>
+      </table>
+      <button class="btn btn_main">Buy now</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__wrapper">
+        <div class="footer__descr">
+          <h1 class="footer__logo">
+            <a href="index.html" class="footer__logo">
+              <img src="icons/logo.svg" alt="logo">
+            </a>
+          </h1>
+          <h2 class="subtitle subtitle_footer">Creating a catchy tagline coffee shop business growth.</h2>
+          <div class="footer__telephone">
+            <img src="icons/telephone.svg" alt="telephone">
+            <a href="tel:+8801742-527137">+8801742-527137</a>
+          </div>
+        </div>
+        <div class="footer__categories">
+          <h3 data-footerTitles class="title_footer">CATEGORIES<img class="arrow bottom" src="icons/arrow/arrow_top.svg" alt="arrow" width="25px"></h3>
+          <div class="footer__subtitle">
+            <h4 class="subtitle subtitle_footer"><a href="#">Ashley Szekeres Art</a></h4>
+            <h4 class="subtitle subtitle_footer"><a href="#">Merchandise</a></h4>
+            <h4 class="subtitle subtitle_footer"><a href="#">Gift Certificates</a></h4>
+          </div>
+        </div>
+        <div class="footer__information">
+          <h3 data-footerTitles class="title_footer">INFORMATION<img class="arrow bottom" src="icons/arrow/arrow_top.svg" alt="arrow" width="25px"></h3>
+          <div class="footer__subtitle">
+            <h4 class="subtitle subtitle_footer"><a href="index.html#offers">Coffee Beans</a></h4>
+            <h4 class="subtitle subtitle_footer"><a href="index.html#contact">Contact Us</a></h4>
+            <h4 class="subtitle subtitle_footer"><a href="index.html#review">Blog</a></h4>
+          </div>
+        </div>
+        <div class="footer__social">
+          <h3 class="title title_footer">FOLLOW US<span></span></h3>
+          <div class="social">
+            <a href="#" class="social__item">
+              <img src="icons/social/twitter.svg" alt="twitter">
+            </a>
+            <a href="#" class="social__item">
+              <img src="icons/social/facebook.svg" alt="facebook">
+            </a>
+            <a href="#" class="social__item">
+              <img src="icons/social/instagram.svg" alt="instagram">
+            </a>
+            <a href="#" class="social__item">
+              <img src="icons/social/linkdin.svg" alt="linkdin">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__info">Copyright © 2021 Coffee, All rights reserved. Present by MoxCreative.</div>
+    </div>
+  </footer>
+
+  <div class="canvas"></div>
+
+  <div class="menu">
+    <div class="menu__header">
+      <a href="index.html" class="menu__logo">
+        <img src="icons/logo.svg" alt="logo">
+      </a>
+      <div class="menu__close">
+        <img src="icons/сlose.svg" alt="close">
+      </div>
+    </div>
+    <div class="menu__body">
+      <nav class="menu__nav"></nav>
+      <div class="menu__footer">
+        <div class="menu__basket">
+          <img src="icons/basket.svg" alt="basket">
+          <span data-number class="menu__number"></span>
+        </div>
+        <div class="menu__wrapper">
+          <input class="menu__input" type="text">
+          <div data-search class="menu__search">
+            <img src="icons/search.svg" alt="search">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/buyScript.js"></script>
+</body>
+</html>
