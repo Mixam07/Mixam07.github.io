@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", async function() {
   
   try{
     if(leagueTable){
-      //const leagueKey = prompt("League key(152 207 206 153 175 168(ligue1) 302)", "168");
+      const leagueKey = prompt("League key(152 207 206 153 175 168(ligue1) 302)", "168");
       (async (leagueKey) => {
         const informationTable = await requests(`https://apiv2.allsportsapi.com/football/?&met=Standings&leagueId=${leagueKey}&APIkey=${key1}`),
               informationLeage = await findLeague(leagueKey, key1);
@@ -214,14 +214,13 @@ document.addEventListener("DOMContentLoaded", async function() {
           leagueTable.children[i+1].children[0].children[1].children[0].children[0].src = logo.result[0].team_logo;
         });
   
-      })(152)
-      //leagueKey
+      })(leagueKey)
     }
   }catch(e){}
 
   try{
     if(clubTable){
-      //const clubKey = prompt("League key(100,80)", "100");
+      const clubKey = prompt("League key(100,80)", "100");
       (async (clubKey) => {
         const informationClub = await requests(`https://apiv2.allsportsapi.com/football/?&met=Teams&teamId=${clubKey}&APIkey=${key2}`);
 
@@ -268,7 +267,7 @@ document.addEventListener("DOMContentLoaded", async function() {
           </tr>
           `;
         });
-      })(100)
+      })(clubKey)
     }
   }catch(e){}
 
