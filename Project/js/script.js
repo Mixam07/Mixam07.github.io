@@ -125,11 +125,15 @@ window.addEventListener("DOMContentLoaded", async function() {
     }
 
     elementsActive[0].parentNode.addEventListener("mouseover", () => {
-      clearInterval(interval);
+      if(document.body.clientWidth > 765){
+        clearInterval(interval);
+      }
     });
 
     elementsActive[0].parentNode.addEventListener("mouseout", () => {
-      createInterval();
+      if(document.body.clientWidth > 765){
+        createInterval();
+      }
     });
 
     elementsActive.forEach((item, i) => {
