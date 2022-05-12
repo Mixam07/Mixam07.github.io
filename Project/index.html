@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+  <title>Путівник мовою програмування Python</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="nav">
+    <div class="nav__container container">
+      <div class="nav__wrapper">
+        <div class="nav__logo">
+          <div class="nav__img">
+            <img src="icons/python_logo.svg" alt="Python">
+          </div>
+          <div class="nav__text">Python путівник</div>
+        </div>
+        <nav class="nav__list">
+          <a href="#report" class="nav__href">Доповідь</a>
+          <a href="#addition" class="nav__href">Доповнення</a>
+          <a href="#frameworks" class="nav__href">Фреймворки</a>
+        </nav>
+        <div class="nav__burger-menu">
+          <span class="nav__item"></span>
+          <span class="nav__item"></span>
+          <span class="nav__item"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <header id="up" class="header">
+    <div class="header__container container">
+      <div class="header__wrapper">
+        <h1 class="title title_main">Путівник мовою програмування Python</h1>
+        <h2 class="sublitle subtitle_main">Найпопулярніша мова програмування</h2>
+      </div>
+    </div>
+    <div class="background">
+      <img src="img/background/background-1.png" alt="background">
+      <img src="img/background/background-2.jpg" alt="background">
+      <img src="img/background/background-3.jpg" alt="background">
+    </div>
+  </header>
+
+  <section id="report" class="main">
+    <div class="main__container container">
+      <div class="main__main">
+        <h1 class="title">Доповідь</h1>
+        <ul class="main__descr">
+          <li class="main__item flex">
+            <div class="main__wrapper">
+              <h2 class="title title_mini">Python — це</h2>
+              <div class="main__text">
+                Python — це інтерпретована об'єктно-орієнтована мова програмування високого рівня зі строгою динамічною типізацією. Розроблена в 1990 році Гвідо ван Россумом. Структури даних високого рівня разом із динамічною семантикою та динамічним зв'язуванням роблять її привабливою для швидкої розробки програм, а також як засіб поєднування наявних компонентів. Python підтримує модулі та пакети модулів, що сприяє модульності та повторному використанню коду. Інтерпретатор Python та стандартні бібліотеки доступні як у скомпільованій, так і у вихідній формі на всіх основних платформах. В мові програмування Python підтримується кілька парадигм програмування, зокрема: об'єктно-орієнтована, процедурна, функціональна та аспектно-орієнтована.
+              </div>
+            </div>
+            <div class="main__photo">
+              <img src="img/photo.jpg" alt="photo">
+              <div class="main__name">Ґвідо ван Россум</div>
+            </div>
+          </li>
+
+          <li class="main__item">
+            <h2 class="title title_mini">Переваги</h2>
+            <div class="main__text">
+              Серед основних її переваг можна назвати такі:<br>
+              <ol>
+                <li>-чистий синтаксис (для виділення блоків слід використовувати відступи);</li>
+                <li>-переносність програм (що властиве більшості інтерпретованих мов);</li>
+                <li>-стандартний дистрибутив має велику кількість корисних модулів (включно з модулем для розробки графічного інтерфейсу);</li>
+                <li>-можливість використання Python в діалоговому режимі (дуже корисне для експериментування та розв'язання простих задач);</li>
+                <li>-стандартний дистрибутив має просте, але разом із тим досить потужне середовище розробки, яке зветься IDLE і яке написане мовою Python;</li>
+                <li>-зручний для розв'язання математичних проблем (має засоби роботи з комплексними числами, може оперувати з цілими числами довільної величини, у діалоговому режимі може використовуватися як потужний калькулятор);</li>
+              </ol>
+              
+              відкритий код (можливість редагувати його іншими користувачами).
+              Python має ефективні структури даних високого рівня та простий, але ефективний підхід до об'єктно-орієнтованого програмування. Елегантний синтаксис Python, динамічна обробка типів, а також те, що це інтерпретована мова, роблять її ідеальною для написання скриптів та швидкої розробки прикладних програм у багатьох галузях на більшості платформ.
+
+              Інтерпретатор мови Python і багата Стандартна бібліотека (як вихідні тексти, так і бінарні дистрибутиви для всіх основних операційних систем) можуть бути отримані з сайту Python www.python.org Архівовано 17 квітня 2018 у Wayback Machine., і можуть вільно розповсюджуватися. Цей самий сайт має дистрибутиви та посилання на численні модулі, програми, утиліти та додаткову документацію.
+
+              Інтерпретатор мови Python може бути розширений функціями та типами даних, розробленими на C чи C＋＋ (або на іншій мові, яку можна викликати із C). Python також зручна як мова розширення для прикладних програм, що потребують подальшого налагодження.
+            </div>
+          </li>
+
+          <li class="main__item">
+            <h2 class="title title_mini">Історія</h2>
+            <div class="main__text">
+              Розробка мови Python була розпочата в кінці 1980-х років співробітником голландського інституту CWI Гвідо ван Россумом. Для розподіленої ОС Amoeba потрібна була розширювана скриптова мова, і Гвідо почав писати Python на дозвіллі, запозичивши деякі напрацювання для мови ABC (Гвідо брав участь у розробці цієї мови, орієнтованої на навчання програмування). У лютому 1991 року Гвідо опублікував вихідний текст в групі новин alt.sources. Мова почала вільно поширюватися через Інтернет і сподобалася іншим програмістам. З 1991 року Python є цілком об'єктно-орієнтованим. Python також запозичив багато рис таких мов, як C, C++, Modula-3 і Icon, й окремі риси функціонального програмування з Ліспу.Назва мови виникла зовсім не від виду плазунів. Автор назвав мову на честь популярного британського комедійного серіалу 70-х років «Повітряний цирк Монті Пайтона». Втім, все одно назву мови частіше асоціюють саме зі змією, ніж з фільмом — піктограми файлів в KDE або в Windows, і навіть емблема на сайті python.org зображують зміїну голову.Наявність дружньої спільноти користувачів, поряд з дизайнерською інтуїцією Гвідо, вважається одним з головних факторів успіху Python. Розвиток мови відбувається згідно з чітко регламентованими процесами створення, обговорення, відбору та реалізації документів PEP (Python Enhancement Proposal) — пропозицій щодо розвитку Python.3 грудня 2008 року, після тривалого тестування, вийшла перша версія Python 3000 (або Python 3.0, також використовується скорочена Py3k). У Python 3000 усунено багато недоліків архітектури з максимально можливим (але не повним) збереженням сумісності зі старішими версіями. На сьогодні підтримуються Python версії 3.
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="frameworks" class="frameworks">
+    <div class="frameworks__container container">
+      <h1 class="title">Найпопулярніші фреймворки Python</h1>
+      <ul class="frameworks__list">
+        <li data-name="Django" class="frameworks__item"><img src="img/framework/Django.png" alt="framawork"></li>
+        <li data-name="CherryPy" class="frameworks__item"><img src="img/framework/CherryPy.png" alt="framawork"></li>
+        <li data-name="Flask" class="frameworks__item"><img src="img/framework/Flask.png" alt="framawork"></li>
+        <li data-name="TurboGears" class="frameworks__item"><img src="img/framework/TurboGears.png" alt="framawork"></li>
+        <li data-name="Pyramid" class="frameworks__item"><img src="img/framework/Pyramid.png" alt="framawork"></li>
+        <li data-name="Web2Py" class="frameworks__item"><img src="img/framework/Web2Py.png" alt="framawork"></li>
+        <li data-name="Bottle" class="frameworks__item"><img src="img/framework/Bottle.png" alt="framawork"></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="addition" class="accordion">
+    <div class="accordion__container container">
+      <h1 class="title">Доповнення</h1>
+      <ul class="accordion__list">
+        <li class="accordion__item">
+          <h2 class="title title_addition">
+            <img class="accordion__arrow" src="icons/arrow.svg" alt="arrow">
+            Математичні операції
+          </h2>
+          <div class="accordion__info">
+            <table width="100%" class="accordion__table">
+              <tr>
+                <th>Операція</th><th>Символ операції</th><th>Приклад</th><th class="result">Результат</th>
+              </tr>
+              <tr>
+                <td>Додавання</td><td>+</td><td>Res = 15+3</td><td class="result">Res = 18</td>
+              </tr>
+              <tr>
+                <td>Віднімання</td><td>-</td><td>Res = 15-3</td><td class="result">Res = 12</td>
+              </tr>
+              <tr>
+                <td>Множення</td><td>*</td><td>Res = 5*3</td><td class="result">Res = 15</td>
+              </tr>
+              <tr>
+                <td>Ділення</td><td>/</td><td>Res = 15/3</td><td class="result">Res = 5</td>
+              </tr>
+              <tr>
+                <td>Обчислення неповної частки від ділення</td><td>//</td><td>Res = 5//2</td><td class="result">Res = 2</td>
+              </tr>
+              <tr>
+                <td>Обчислення остачі</td><td>%</td><td>Res = 5%2</td><td class="result">Res = 1</td>
+              </tr>
+              <tr>
+                <td>Піднесення до степеня</td><td>**</td><td>Res = 5**2</td><td class="result">Res = 25</td>
+              </tr>
+            </table>
+            <div class="accordion__files">
+              <div data-url="files/img-1.webp" data-name="математичні операції.webp" class="accordion__download">
+                <div class="accordion__text">
+                  Скачати таблиця в картинці
+                </div>
+                <div class="accordion__img">
+                  <img src="icons/download.svg" alt="download">
+                </div>
+              </div>
+
+              <div data-url="files/table-1.xlsx" data-name="математичні операції.xlsx" class="accordion__download">
+                <div class="accordion__text">
+                  Скачати таблиця в Excel
+                </div>
+                <div class="accordion__img">
+                  <img src="icons/download.svg" alt="download">
+                </div>
+              </div>
+
+              <div data-url="files/table-1.docx" data-name="математичні операції.docx" class="accordion__download">
+                <div class="accordion__text">
+                  Скачати таблиця в Word
+                </div>
+                <div class="accordion__img">
+                  <img src="icons/download.svg" alt="download">
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="accordion__item">
+          <h2 class="title title_addition">
+            <img class="accordion__arrow" src="icons/arrow.svg" alt="arrow">
+            Типи даних
+          </h2>
+          <div class="accordion__info">
+            <table width="100%" class="accordion__table">
+              <tr>
+                <th>Тип</th><th class="variability">Змінність</th><th>Опис</th><th class="examples">Приклади</th>
+              </tr>
+              <tr>
+                <td>bool</td><td class="variability">Незмінний</td><td>Логічний тип</td><td class="examples">True<br>False</td>
+              </tr>
+              <tr>
+                <td>bytearray</td><td class="variability">Змінний</td><td>Масив байтів</td><td class="examples">bytearray(b'Some ASCII')<br>bytearray(b"Some ASCII")<br>bytearray([119, 105, 107, 105])</td>
+              </tr>
+              <tr>
+                <td>bytes</td><td class="variability">Незмінний</td><td>Масив байтів</td><td class="examples">b'Some ASCII'<br>b"Some ASCII"<br>bytes([119, 105, 107, 105])</td>
+              </tr>
+              <tr>
+                <td>complex</td><td class="variability">Незмінний</td><td>Комплексне число</td><td class="examples">3+2.7j</td>
+              </tr>
+              <tr>
+                <td>dict</td><td class="variability">Змінний</td><td>Словник (асоціативний масив), є колекцією пар «ключ-значення»; значення може бути будь-якого типу, ключ повинен мати тип, що хешується</td><td class="examples">{'key1': 1.0, 3: False}<br>{}</td>
+              </tr>
+              <tr>
+                <td>ellipsis</td><td class="variability">Незмінний</td><td>Багатокрапка(еліпсис). Використовується в основному NumPy для скороченого завдання зрізу багатовимірного масиву. У самому Python є для підтримки користувацьких типів і таких розширень, як NumPy</td><td class="examples">...<br>Ellipsis<br>Для NumPy:<br>x[i, ..., j]<br>что эквивалентно<br>x[i, :, :, j]</td>
+              </tr>
+              <tr>
+                <td>float</td><td class="variability">Незмінний</td><td>Число з плаваючою комою. Ступінь точності залежить від платформи, але на практиці зазвичай реалізується у вигляді 64-бітного 53-розрядного числа</td><td class="examples">1.414</td>
+              </tr>
+              <tr>
+                <td>frozenset</td><td class="variability">Незмінний</td><td>Неупорядкована множина, не містить дублікатів; може містити в собі різні типи даних, що хешуються.</td><td class="examples">frozenset([4.0, 'string, True])</td>
+              </tr>
+              <tr>
+                <td>int</td><td class="variability">Незмінний</td><td>Ціла кількість необмеженого розміру</td><td class="examples">42</td>
+              </tr>
+              <tr>
+                <td>list</td><td class="variability">Змінний</td><td>Список може містити в собі різні типи даних</td><td class="examples">[4.0, 'string', True]<br>[]</td>
+              </tr>
+              <tr>
+                <td>NoneType</td><td class="variability">Незмінний</td><td>Об'єкт, що є відсутність значення, часто званий Null в інших мовах.</td><td class="examples">None</td>
+              </tr>
+              <tr>
+                <td><span class="long">NotImplementedType</span><span class="short">NIT</span></td><td class="variability">Незмінний</td><td>Об'єкт, який повертається при перевантаженні операторів, коли типи операндів не підтримуються.</td><td class="examples">NotImplemented</td>
+              </tr>
+              <tr>
+                <td>range</td><td class="variability">Незмінний</td><td>Послідовність цілих чисел від одного значення до іншого, зазвичай використовується для повторення операції кілька разів за допомогою for</td><td class="examples">range(1, 10)<br>range(10, -5, -2)</td>
+              </tr>
+              <tr>
+                <td>set</td><td class="variability">Змінний</td><td>Неупорядкована множина, не містить дублікатів; може містити в собі різні типи даних, що хешуються.</td><td class="examples">{4.0, 'string', True}<br>set()</td>
+              </tr>
+              <tr>
+                <td>str</td><td class="variability">Незмінний</td><td>Строковый тип</td><td class="examples">'Wikipedia'<br>"Wikipedia"<br>"""Spanning<br>multiple<br>lines"""</td>
+              </tr>
+              <tr>
+                <td>tuple</td><td class="variability">Незмінний</td><td>Кортеж. Може містити в собі різні типи даних. Може використовуватися як незмінний список і як записи з неіменованими полями</td><td class="examples">В качестве неизменяемого списка:<br>(4.0, 'string', True)<br>('single element',)<br>()<br>В качестве записей:<br>lax_coordinates = (33.9425, -118.408056)<br>city, year, pop, chg, area = ('Tokyo', 2003, <br>32450, 0.66, 8014)</td>
+              </tr>
+            </table>
+            <div class="accordion__files">
+              <div data-url="files/table-2.xlsx" data-name="типи даних.xlsx" class="accordion__download">
+                <div class="accordion__text">
+                  Скачати таблиця в Excel
+                </div>
+                <div class="accordion__img">
+                  <img src="icons/download.svg" alt="download">
+                </div>
+              </div>
+
+              <div data-url="files/table-2.docx" data-name="типи даних.docx" class="accordion__download">
+                <div class="accordion__text">
+                  Скачати таблиця в Word
+                </div>
+                <div class="accordion__img">
+                  <img src="icons/download.svg" alt="download">
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="accordion__item">
+          <h2 class="title title_addition">
+            <img class="accordion__arrow" src="icons/arrow.svg" alt="arrow">
+            Коротко в призентації
+          </h2>
+          <div class="accordion__info">
+            <div class="accordion__files">
+              <div data-url="files/presentation.pptx" data-name="презинтація.pptx" class="accordion__download">
+                <div class="accordion__text">
+                  Скачати призентацію
+                </div>
+                <div class="accordion__img">
+                  <img src="icons/download.svg" alt="download">
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="accordion__item">
+          <h2 class="title title_addition">
+            <img class="accordion__arrow" src="icons/arrow.svg" alt="arrow">
+            Калькулятор в одну строку на Python
+          </h2>
+          <div class="accordion__info">
+            <div class="accordion__wrapper">
+              <div class="accordion__number">1</div>
+              <div class="accordion__code"><span style="color:#BB94C5;">while</span> <span style="color: #F98442;">True</span><span style="color: #5FB3B3;">:</span> <span style="color: #4E99CC;">print</span><span style="color: #DED700;">(</span><span style="color: #4E99CC;">eval</span><span style="color: #DA70BC;">(</span><span style="color: #4E99CC;">input</span><span style="color: #87C3CD;">(</span><span style="color: #55B3B3;">"</span><span style="color: #8CC794;">>>></span><span style="color: #55B3B3;">"</span><span style="color: #87C3CD;">)</span><span style="color: #DA70BC;">)</span><span style="color: #DED700;">)</span></div>
+            </div>
+            <div class="accordion__files">
+              <div data-url="files/code.py" data-name="calculator.py" class="accordion__download">
+                <div class="accordion__text">
+                  Скачати код на Python
+                </div>
+                <div class="accordion__img">
+                  <img src="icons/download.svg" alt="download">
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__wrapper">
+        <h1 class="footer__author title title_footer">Зробив: Сивак Максим</h1>
+        <div class="footer__class">учень 9-Б класу</div>
+        <div class="footer__school">КЗ"ЗОШ |-||| ст №3 м. Хмільника"</div>
+        <div class="footer__topic">На тему: "Путівник мовою програмування Python"</div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="up">
+    <a href="#up">
+      <img src="icons/up.svg" alt="up">
+    </a>
+  </div>
+
+  <div class="popup">
+    <div class="popup__wrapper">
+      <button class="popup-close">&times;</button>
+      <div class="popup__header">
+        <div class="popup__logo">
+          <div class="popup__img">
+            <img src="icons/python_logo.svg" alt="Python">
+          </div>
+          <div class="popup__text">Python путівник</div>
+        </div>
+      </div>
+      <nav class="popup__nav">
+        <a href="#report" class="popup__href">Доповідь</a>
+        <a href="#addition" class="popup__href">Доповнення</a>
+        <a href="#frameworks" class="popup__href">Фреймворки</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="popup-info">
+    <div class="popup-info__container container">
+      <div class="popup-info__window">
+        <button class=popup-info-close>&times;</button>
+        <ul class="popup-info__list">
+          <li class="popup-info__item Django">
+            <h1 class="title">Django</h1>
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Переваги</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Django має зрозумілу структуру. Фреймворк простий у використанні, так що програмісти-початківці зможуть з ним розібратися.</li>
+                <li class="popup-info__element">Багато особливостей фреймворку дозволяють йому значно спрощувати та прискорювати роботу з кодом.</li>
+                <li class="popup-info__element">Регулярно обновляется, учитывает последние версии языка.</li>
+                <li class="popup-info__element">Фреймворк бесплатный и имеет открытый исходный код.</li>
+              </ol>
+            </div>
+  
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Недоліки</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Через масивність та наявність власних бібліотек падає гнучкість.</li>
+              </ol>
+            </div>
+  
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Де використовується</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">У створенні сайтів. Фреймворк підтримує багато форматів: JSON, XML, RSS та інші (наприклад, на ньому створено сайт The Washington Post).</li>
+                <li class="popup-info__element">Розробка веб-додатків (наприклад, Instagram, Pinterest).</li>
+              </ol>
+            </div>
+          </li>
+
+          <li class="popup-info__item CherryPy">
+            <h1 class="title">CherryPy</h1>
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Переваги</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Простий та зрозумілий фреймворк, який легко використовувати у роботі.</li>
+                <li class="popup-info__element">Наявність спеціального плагіна, завдяки якому можна відстежувати продуктивність програми.</li>
+                <li class="popup-info__element">Фреймворк безкоштовний та має відкритий вихідний код.
+                </li>
+                <li class="popup-info__element">Програми, розроблені за допомогою CherryPy, працюють у будь-якій операційній системі, яка підтримує Python (наприклад, Windows, MacOS, Linux).</li>
+              </ol>
+            </div>
+  
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Недоліки</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Не підійде на вирішення складних численних завдань.</li>
+              </ol>
+            </div>
+  
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Де використовується</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Фреймворк підходить для розробки програм для Android.</li>
+                <li class="popup-info__element">Ідеальний, коли необхідно створити програму з не надто довгим кодом.</li>
+                <li class="popup-info__element">Якщо виникає потреба у відстеженні продуктивності програми.</li>
+                <li class="popup-info__element">Відеосервіси Netflix та Hulu використовують цей фреймворк.</li>
+              </ol>
+            </div>
+          </li>
+
+          <li class="popup-info__item Flask">
+            <h1 class="title">Flask</h1>
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Переваги</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Налаштування та встановлення Flask вимагає менше часу, ніж інших фреймворків.</li>
+                <li class="popup-info__element">Підтримка безпечних Cookies.</li>
+                <li class="popup-info__element">Вбудовані функції прискорюють розробку.</li>
+                <li class="popup-info__element">Фреймворк швидко адаптується завдяки модульному дизайну.</li>
+              </ol>
+            </div>
+  
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Недоліки</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Фреймворк використовується як додатковий інструмент і націлений вирішення конкретних завдань, тому може похвалитися широкими можливостями.</li>
+              </ol>
+            </div>
+  
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Де використовується</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">У створенні відкритих програм.</li>
+                <li class="popup-info__element">Під час розробки бекенд-систем.</li>
+                <li class="popup-info__element">Flask використовувався під час створення програми відео-сервісу Netflix.</li>
+              </ol>
+            </div>
+          </li>
+
+          <li class="popup-info__item TurboGears">
+            <h1 class="title">TurboGears</h1>
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Переваги</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Підтримка гнучкої та потужної ORM.</li>
+                <li class="popup-info__element">Прості та зрозумілі шаблони PasteScript.</li>
+                <li class="popup-info__element">Підтримка величезної кількості баз даних.</li>
+                <li class="popup-info__element">Можливість розширювати фреймворк шляхом створення плагінів чи доповнення існуючих.</li>
+                <li class="popup-info__element">TurboGears - дуже гнучкий фреймворк, тому його можна використовувати як мікрофреймворк для створення прототипу або як фулстек-фреймворк при роботі з великими проектами</li>
+              </ol>
+            </div>
+  
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Недоліки</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Невелика кількість можливостей для розширення.</li>
+              </ol>
+            </div>
+  
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Де використовується</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Tracim — сервіс, націлений на допомогу в роботі з різними типами документів і даних.</li>
+                <li class="popup-info__element">У створенні сайтів (наприклад, на сайті турецької версії вокального шоу The Voice).</li>
+                <li class="popup-info__element">У створенні баз даних (наприклад, BisQue — системі, розробленої для біологів, щоб створювати 5D-зображення).</li>
+              </ol>
+            </div>
+          </li>
+
+          <li class="popup-info__item Pyramid">
+            <h1 class="title">Pyramid</h1>
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Переваги</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Відкритий вихідний код.</li>
+                <li class="popup-info__element">Багато функцій.</li>
+                <li class="popup-info__element">Завдяки SQLAlchemy можна працювати навіть зі складними запитами.</li>
+                <li class="popup-info__element">Существование декораторов помогает легко отправлять XHR-запросы</li>
+                <li class="popup-info__element">Гнучкість кадру: можна замінювати компоненти.</li>
+                <li class="popup-info__element">Фреймворк безкоштовний.</li>
+              </ol>
+            </div>
+  
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Недоліки</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">При створенні складних програм доведеться глибоко вивчити фреймворк і навчитися з ним працювати, оскільки він має певні алгоритми, відступити від яких буде проблематично.</li>
+              </ol>
+            </div>
+  
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Де використовується</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">У створенні великих складних програм.</li>
+                <li class="popup-info__element">Ідеальний для розробки однофайлових програм.</li>
+                <li class="popup-info__element">При масштабуванні сайтів під зростання навантаження.</li>
+                <li class="popup-info__element">У створенні прототипів.</li>
+                <li class="popup-info__element">Використовується для розробки API.</li>
+                <li class="popup-info__element">У тестуванні.</li>
+                <li class="popup-info__element">В ідентифікації.</li>
+                <li class="popup-info__element">У маршрутизації.</li>
+                <li class="popup-info__element">Серед розробки веб-додатків Substance-D.</li>
+              </ol>
+            </div>
+          </li>
+
+          <li class="popup-info__item Web2Py">
+            <h1 class="title">Web2Py</h1>
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Переваги</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Може працювати на різних платформах та з різними протоколами.</li>
+                <li class="popup-info__element">Не потребує встановлення або налаштування.</li>
+                <li class="popup-info__element">Якісний захист даних.</li>
+                <li class="popup-info__element">Вихідний код є відкритим.</li>
+                <li class="popup-info__element">Гнучкий.</li>
+                <li class="popup-info__element">Безкоштовний.</li>
+              </ol>
+            </div>
+  
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Недоліки</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Необхідно працювати з останньою версією Python.</li>
+              </ol>
+            </div>
+  
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Де використовується</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Web2py розроблений для розробки швидких, масштабованих, безпечних та портованих веб-додатків на основі баз даних.</li>
+                <li class="popup-info__element">За допомогою фреймворку розроблено платформу Instant Press.</li>
+              </ol>
+            </div>
+          </li>
+
+          <li class="popup-info__item Bottle">
+            <h1 class="title">Bottle</h1>
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Переваги</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Зручний доступ до даних.</li>
+                <li class="popup-info__element">Фреймворк є простим і зрозумілим у використанні.</li>
+              </ol>
+            </div>
+  
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Недоліки</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Не підходить реалізації великих проектів.</li>
+              </ol>
+            </div>
+  
+            <div class="popup-info__wrapper">
+              <h2 class="title_popup title">Де використовується</h2>
+              <ol class="popup-info__info">
+                <li class="popup-info__element">Розробка невеликих додатків.</li>
+                <li class="popup-info__element">У створенні прототипів.</li>
+                <li class="popup-info__element">У бібліотеці для структурування проектів Decanter.</li>
+              </ol>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
