@@ -121,7 +121,7 @@ window.addEventListener("DOMContentLoaded", async function() {
         }
   
         showElement();
-      }, 5000);
+      }, 10000);
     }
 
     elementsActive[0].parentNode.addEventListener("mouseover", () => {
