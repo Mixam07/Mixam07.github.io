@@ -1,0 +1,261 @@
+@media (max-width: 1080px){
+  .header__menu_first{
+    display: block;
+  }
+  .header__nav{
+    justify-content: flex-end;
+  }
+  .header__nav{
+    height: 30px;
+  }
+  .header__hi{
+    padding-top: 30px;
+  }
+  .header__nav a{
+    display: none;
+  }
+  .footer{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+  }
+  .capability__items{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .footer__social_network{
+    margin-left: 0px;
+    justify-content: center;
+    margin-bottom: 20px;
+    order: 2;
+  }
+  .footer__nav{
+    order: 1;
+  }
+  .footer__elements{
+    margin-right: 5px;
+  }
+  .footer__elements:first-child{
+    margin-left: 5px;
+  }
+  .footer__href{
+    order: 3;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 900px){
+  .header__hi{
+    padding-bottom: 35px;
+  } 
+  .header__button{
+    width: 210px;
+    height: 50px;
+  }
+}
+@media (max-width: 870px){
+  .header__container{
+    padding: 0px 15px;
+    height: 100%;
+  }
+  .header__info{
+    height: 60px;
+  }
+  .header__tell{
+    display: none;
+  }
+  .header__where{
+    display: none;
+  }
+  .header__logo{
+    margin-top: 0px;
+  }
+  .header__container{
+    align-items: center;
+  }
+  .header__tel_inf{
+    margin-top: 0px;
+  }
+  .hi__button{
+    margin-left: 0px;
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+  }
+  .header__telephon {
+    padding-top: 0px;
+    flex-direction: column;
+  }
+  .header__number{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .header__img{
+    width: 130px;
+    height: 15px;
+    position: relative;;
+  }
+  .header__img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 750px){
+  .preference{
+    background-color: #070716;
+    padding: 25px 0px 30px 0px;
+  }
+  .preference__text{
+    margin-top: 30px;
+    color: #fff;
+  }
+  .advantage__items{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+  }
+  .advantage__item{
+    flex-direction: column;
+  }
+  .advantage__items{
+    padding: 0px 15px;
+    margin: 0px;
+  }
+  .advantage_items{
+    row-gap: 25px;
+  }
+  .advantage__img{
+    margin: 0 auto;
+
+  }
+  .advantage__introduction{
+    margin-bottom: 25px;
+  }
+  .advatage__mane{
+    margin-top: 25px;
+  }
+}
+@media (max-width: 700px){
+  .description{
+    font-size: 14px;
+  }
+  .introduction{
+    margin-top: 18px;
+  }
+  .introduction {
+    font-size: 16px;
+  }
+  .header__about{
+    display: none;
+  }
+  .header__hello{
+    margin: 40px 0px 75px 0px;
+    padding: 0px 15px;
+  }
+  .header__hello p:first-child{
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .header__hello p:last-child{
+    font-size: 20px;
+  }
+  .header__button {
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 660px){
+  .capability__items{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+@media (max-width: 600px){
+  .info__title span,
+  .info__title{
+    font-size: 16px;
+  }
+  .info__items{
+    font-size: 14px;
+    margin-left: 0px;
+  }
+  .info__conditions,
+  .info__request{
+    display: flex;
+    flex-direction: column;
+  }
+  .info__conditions_car{
+    order: 1;
+  }
+  .info__info{
+    order: 2;
+  }
+  .info__conditions_company{
+    order: 3;
+  }
+  .info__info{
+    margin: 15px 0px 30px 0px;
+  }
+  .info__documents{
+    margin-top: 30px;
+  }
+}
+@media (max-width: 500px){
+  .preference__description{
+    padding: 0 15px;
+  }
+  .map{
+    height: 360px;
+  }
+  .map__container{
+    height: 360px;
+  }
+}
+@media (max-width: 350px){
+  .capability{
+    margin-top: -75px;
+  }
+  .capability__item {
+    width: 100%;
+  }
+  .capability__items{
+    margin: 0 15px;
+  }
+  .description{
+    padding: 0 15px;
+  }
+  .introduction{
+    padding: 0 15px;
+  }
+  .footer__span{
+    max-width: 255px;
+    height: 4px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 300px){
+  .header__telephon{
+    display: none;
+  }
+  .header__container{
+    justify-content: center;
+  }
+  .footer__span{
+    width: 100%;
+  }
+  .footer__href{
+    display: none;
+  }
+  .footer__social_network{
+    margin-top: 15px;
+  }
+  .footer__mane{
+    flex-wrap: wrap;
+  }
+  .footer__items{
+    margin: 0 5px;
+  }
+  .info__introduction {
+    padding: 0px;
+  }
+}
