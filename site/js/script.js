@@ -77,7 +77,7 @@ $(document).ready(function () {
         const progressNumber = (700 - (700 * number) / max);
         setCircleProgress(progressNumber);
 
-        if(number < max) setTimeout(createProgress, 2000)
+        if(number < max) setTimeout(createProgress, 500)
     }
 
     createTableItem();
